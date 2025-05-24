@@ -2,14 +2,26 @@
 
 This repository contains a clean and simple implementation of **Kruskal's Algorithm** in C/C++ to find the **Minimum Spanning Tree (MST)** of a weighted, undirected graph.
 
+**A minimum spanning tree (MST)** or **minimum weight spanning tree** for a weighted, connected, and undirected graph is a spanning tree (no cycles and connects all vertices) that has minimum weight. The weight of a spanning tree is the sum of all edges in the tree.  
+
 ---
 
 ## 📌 What is Kruskal's Algorithm?
 
 Kruskal’s algorithm is a **greedy algorithm** used to find the MST of a graph. An MST is a subset of the edges that connects all the vertices together without any cycles and with the **minimum possible total edge weight**.
 
+In **Kruskal's algorithm**, we sort all edges of the given graph in increasing order. Then it keeps on adding new edges and nodes in the MST if the newly added edge does not form a cycle. It picks the minimum weighted edge at first and the maximum weighted edge at last. Thus we can say that it makes a locally optimal choice in each step in order to find the optimal solution. Hence this is a **Greedy Algorithm**.
+
 ---
 
+## How to find MST using Kruskal's algorithm?
+Below are the steps for finding MST using Kruskal's algorithm:
+```
+1.Sort all the edges in a non-decreasing order of their weight. 
+2.Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If the cycle is not formed, include this edge. Else, discard it. 
+3.Repeat step 2 until there are (V-1) edges in the spanning tree.
+
+```
 ## 🧠 The Algorithm (Pseudocode)
 
 ```
@@ -63,6 +75,17 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 * Needs Union-Find structure for optimal performance.
 
 ---
+---
+## Time Complexity: O(E * log E) or O(E * log V)
+```
+1.Sorting of edges takes O(E*logE) time. 
+2.After sorting, we iterate through all edges and apply the find-union algorithm. The find and union operations can take at most O(logV) time.
+3.So overall complexity is O(E*logE + E*logV) time. 
+4.The value of E can be at most O(V2), so O(logV) and O(logE) are the same. Therefore, the overall time complexity is O(E * logE) or O(E*logV)
+
+**Auxiliary Space**: O(E+V), where V is the number of vertices and E is the number of edges in the graph.
+``` 
+---
 
 ## 🚀 How to Run (VS Code + MSVC)
 
@@ -71,17 +94,9 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 * **Visual Studio Code**
 * **MSVC compiler** (via Visual Studio or Build Tools)
 * **C/C++ extension for VS Code** installed
+* Link to download MSVC https://visualstudio.microsoft.com/downloads/ scroll to the end click on tools for visual studio and then click on download.
 * Refer to this Youtube video for MSVC installation [https://www.youtube.com/watch?v=hH0798bL90Y\&t=185s](https://www.youtube.com/watch?v=hH0798bL90Y&t=185s)
 
-### 📁 Folder Structure
-
-```
-kruskals-algorithm/
-│
-├── main.cpp
-├── graph.h     (optional)
-├── README.md
-```
 
 ### ▶️ Steps to Run
 
@@ -92,7 +107,7 @@ kruskals-algorithm/
 2. **Build the Program**:
 
    * Use `Ctrl + Shift + B` to compile with MSVC.
-   * Or go to Run and Debug and then Click on C/C++ option(it should pop up as soon as u hit run)
+   * Or go to `Run and Debug` and then Click on C/C++ option(it should pop up as soon as u hit run)
 
 ## 🧪 Sample Output
 
@@ -110,6 +125,8 @@ Total Weight of MST: 15
 This project is open-source and available under the [MIT License](LICENSE).
 
 &#x20;
-
-## Author 
-Darshan 
+---
+## Credits and Author  
+```GeeksforGeeks``` ,check them out here : ```https://www.geeksforgeeks.org/```
+```Darshan ``` 
+---
