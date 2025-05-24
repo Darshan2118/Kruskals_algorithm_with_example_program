@@ -73,16 +73,6 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 * **C/C++ extension for VS Code** installed
 * Refer to this Youtube video for MSVC installation [https://www.youtube.com/watch?v=hH0798bL90Y\&t=185s](https://www.youtube.com/watch?v=hH0798bL90Y&t=185s)
 
-### 📁 Folder Structure
-
-```
-kruskals-algorithm/
-│
-├── main.cpp
-├── graph.h     (optional)
-├── README.md
-```
-
 ### ▶️ Steps to Run
 
 1. **Open folder** in VS Code:
