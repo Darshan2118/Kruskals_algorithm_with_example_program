@@ -75,7 +75,6 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 * Needs Union-Find structure for optimal performance.
 
 ---
----
 ## Time Complexity: O(E * log E) or O(E * log V)
 ```
 1.Sorting of edges takes O(E*logE) time. 
@@ -126,6 +125,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 &#x20;
 ---
 ## Credits and Author  
-```GeeksforGeeks``` ,check them out here : ```https://www.geeksforgeeks.org/```
-```Darshan ``` 
+***GeeksforGeeks*** ,check them out here : ***https://www.geeksforgeeks.org/***
+***Darshan*** 
 ---
