@@ -98,7 +98,7 @@ nd E is the number of edges in the graph.
 * **MSVC compiler** (via Visual Studio or Build Tools)
 * **C/C++ extension for VS Code** installed
 * Link to download MSVC https://visualstudio.microsoft.com/downloads/ scroll to the end click on tools for visual studio and then click on download.
-* Refer to this Youtube video for MSVC installation [https://www.youtube.com/watch?v=hH0798bL90Y\&t=185s](https://www.youtube.com/watch?v=hH0798bL90Y&t=185s)
+* Refer to this Youtube video for MSVC installation [https://youtu.be/hH0798bL90Y?si=kJtg-9wbsLde66KA] 
 
 ### ▶️ Steps to Run
 
@@ -110,6 +110,14 @@ nd E is the number of edges in the graph.
 
    * Use `Ctrl + Shift + B` to compile with MSVC.
    * Or go to `Run and Debug` and then Click on C/C++ option(it should pop up as soon as u hit run)
+
+## Alternate method if you're using Linux distro's 
+* This is if you're using a virtual box or separate drive for this 
+* Common distros are Ubuntu,mint, Arch.
+* make sure you have gcc/g++ installed on the system.
+* Copy paste the ***c*** file into the text editor.
+* Open terminal, go to the directory where you have saved it and then run the code.
+* Refer Youtube for installing gcc or running the code. 
 
 ## 🧪 Sample Output
 
