@@ -97,7 +97,6 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 * Link to download MSVC https://visualstudio.microsoft.com/downloads/ scroll to the end click on tools for visual studio and then click on download.
 * Refer to this Youtube video for MSVC installation [https://www.youtube.com/watch?v=hH0798bL90Y\&t=185s](https://www.youtube.com/watch?v=hH0798bL90Y&t=185s)
 
-
 ### ▶️ Steps to Run
 
 1. **Open folder** in VS Code:
