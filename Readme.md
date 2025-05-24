@@ -128,6 +128,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 &#x20;
 ---
 ## Credits and Author  
-***GeeksforGeeks*** ,check them out here : ***https://www.geeksforgeeks.org/***
-***Darshan*** 
+* GeeksforGeeks ,check them out here : https://www.geeksforgeeks.org/
+* Darshan (author) 
 ---
