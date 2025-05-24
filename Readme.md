@@ -123,6 +123,12 @@ nd E is the number of edges in the graph.
 ## 🧪 Sample Output
 
 ```
+Enter the no of vertices: 3
+
+Enter the cost matrix: 
+1 2 3
+1 2 3
+1 2 3
 The edges of spanning are:
 
 Edge 1    (2->1) = 1
