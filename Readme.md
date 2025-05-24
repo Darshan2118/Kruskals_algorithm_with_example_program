@@ -18,7 +18,8 @@ In **Kruskal's algorithm**, we sort all edges of the given graph in increasing o
 Below are the steps for finding MST using Kruskal's algorithm:
 ```
 1.Sort all the edges in a non-decreasing order of their weight. 
-2.Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If the cycle is not formed, include this edge. Else, discard it. 
+2.Pick the smallest edge. Check if it forms a cycle with the spanning tree 
+formed so far. If the cycle is not formed, include this edge. Else, discard it. 
 3.Repeat step 2 until there are (V-1) edges in the spanning tree.
 
 ```
@@ -78,9 +79,11 @@ The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Un
 ## Time Complexity: O(E * log E) or O(E * log V)
 ```
 1.Sorting of edges takes O(E*logE) time. 
-2.After sorting, we iterate through all edges and apply the find-union algorithm. The find and union operations can take at most O(logV) time.
+2.After sorting, we iterate through all edges and apply the find-union algorithm. 
+The find and union operations can take at most O(logV) time.
 3.So overall complexity is O(E*logE + E*logV) time. 
-4.The value of E can be at most O(V2), so O(logV) and O(logE) are the same. Therefore, the overall time complexity is O(E * logE) or O(E*logV)
+4.The value of E can be at most O(V2), so O(logV) and O(logE) are the same. 
+Therefore, the overall time complexity is O(E * logE) or O(E*logV)
 
 **Auxiliary Space**: O(E+V), where V is the number of vertices and E is the number of edges in the graph.
 ``` 
