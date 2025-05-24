@@ -33,12 +33,6 @@ formed so far. If the cycle is not formed, include this edge. Else, discard it.
        - Include it in the MST.
 4. Repeat until MST contains (V - 1) edges.
 ```
-
-```
-Algorithm :
-krushkal's() //parameters or conditions  
-```
-
 The algorithm uses a **Disjoint Set Union (DSU)** data structure (also called Union-Find) to detect cycles efficiently.
 
 ---
