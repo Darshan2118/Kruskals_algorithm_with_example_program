@@ -119,6 +119,7 @@ nd E is the number of edges in the graph.
 * Open terminal, go to the directory where you have saved it and then run the code.
 * Refer Youtube for installing gcc or running the code. 
 
+---
 ## 🧪 Sample Output
 
 ```
