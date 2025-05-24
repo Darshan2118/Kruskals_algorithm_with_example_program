@@ -85,6 +85,8 @@ nd E is the number of edges in the graph.
 ---
 
 ## 🚀 How to Run (VS Code + MSVC)
+A Program Example is provided so that this could be better understood. 
+In order to execute it , read below .
 
 ### 🔧 Requirements
 
