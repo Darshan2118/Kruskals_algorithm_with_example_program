@@ -85,7 +85,8 @@ The find and union operations can take at most O(logV) time.
 4.The value of E can be at most O(V2), so O(logV) and O(logE) are the same. 
 Therefore, the overall time complexity is O(E * logE) or O(E*logV)
 
-**Auxiliary Space**: O(E+V), where V is the number of vertices and E is the number of edges in the graph.
+**Auxiliary Space**: O(E+V), where V is the number of vertices 
+nd E is the number of edges in the graph.
 ``` 
 ---
 
@@ -127,7 +128,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 &#x20;
 ---
-## Credits and Author  
-* GeeksforGeeks ,check them out here : https://www.geeksforgeeks.org/
-* Darshan (author) 
+## Credits
+* GeeksforGeeks ,check them out here : https://www.geeksforgeeks.org/ 
 ---
