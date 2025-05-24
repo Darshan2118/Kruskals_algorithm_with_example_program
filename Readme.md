@@ -123,10 +123,12 @@ nd E is the number of edges in the graph.
 ## 🧪 Sample Output
 
 ```
-Edge: 0 - 1  | Weight: 4
-Edge: 1 - 2  | Weight: 5
-Edge: 0 - 2  | Weight: 6
-Total Weight of MST: 15
+The edges of spanning are:
+
+Edge 1    (2->1) = 1
+Edge 2    (3->1) = 1
+
+Mininum cost = 2
 ```
 
 ---
